@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Chrome on 杜卡的博客</title>
-        <link>https://dukkhaybw.github.io/dukkha.github.io/categories/chrome/</link>
+        <link>http://localhost:1313/blogs/categories/chrome/</link>
         <description>Recent content in Chrome on 杜卡的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>杜卡</copyright>
-        <lastBuildDate>Wed, 12 Mar 2025 15:02:09 +0800</lastBuildDate><atom:link href="https://dukkhaybw.github.io/dukkha.github.io/categories/chrome/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 12 Mar 2025 15:02:09 +0800</lastBuildDate><atom:link href="http://localhost:1313/blogs/categories/chrome/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>浏览器工作原理</title>
-        <link>https://dukkhaybw.github.io/dukkha.github.io/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/</link>
+        <link>http://localhost:1313/blogs/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/</link>
         <pubDate>Wed, 12 Mar 2025 15:02:09 +0800</pubDate>
         
-        <guid>https://dukkhaybw.github.io/dukkha.github.io/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/</guid>
-        <description>&lt;img src="https://dukkhaybw.github.io/dukkha.github.io/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/871.jpg" alt="Featured image of post 浏览器工作原理" /&gt;&lt;h1 id=&#34;浏览器工作原理&#34;&gt;浏览器工作原理
+        <guid>http://localhost:1313/blogs/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/</guid>
+        <description>&lt;img src="http://localhost:1313/blogs/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/871.jpg" alt="Featured image of post 浏览器工作原理" /&gt;&lt;h1 id=&#34;浏览器工作原理&#34;&gt;浏览器工作原理
 &lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;浏览器（以 chrome 为例）的进程架构，渲染流程&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;页面劫持，安全，性能优化&lt;/strong&gt;&lt;/li&gt;
@@ -151,10 +151,10 @@
 &lt;img src=&#34;https://static001.geekbang.org/resource/image/ce/9e/ce7f8cfe212bec0f53360422e3b03a9e.png&#34; alt=&#34;img&#34; style=&#34;zoom:50%;&#34; /&gt;
 &lt;p&gt;Chrome 任务管理器用来展示**运行中 Chrome 使用的进程信息的。**从图中可以看到，Chrome 启动了至少 4 个进程。&lt;/p&gt;
 &lt;p&gt;现在的情况：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dukkhaybw.github.io/dukkha.github.io/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20220430085618175.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blogs/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20220430085618175.png&#34;
 	width=&#34;804&#34;
 	height=&#34;441&#34;
-	srcset=&#34;https://dukkhaybw.github.io/dukkha.github.io/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20220430085618175_hu_f5722379e78d4132.png 480w, https://dukkhaybw.github.io/dukkha.github.io/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20220430085618175_hu_20f6ca389f8926e2.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/blogs/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20220430085618175_hu_f5722379e78d4132.png 480w, http://localhost:1313/blogs/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20220430085618175_hu_20f6ca389f8926e2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image-20220430085618175&#34;
@@ -462,7 +462,7 @@
 &lt;p&gt;总结来说，页面加载涉及从请求开始到浏览器接收并处理数据的整个过程，而开始绘制指的是这些数据被转换为屏幕上的视觉信息的起始时刻，标志着用户开始看到页面的视觉反馈。这两个过程的性能对于用户体验至关重要。&lt;/p&gt;
 &lt;p&gt;影响 FP 指标其中一个重要的因素是&lt;strong&gt;资源在网络中的加载速度&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;获取 FP 时间&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dukkhaybw.github.io/dukkha.github.io/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20230117152018929.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blogs/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20230117152018929.png&#34;
 	
 	
 	
@@ -978,10 +978,10 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;curl -I https://res001.geekbang.org/apps/geektime/android/2.3.1/official/geektime_2.3.1_20190527-2136_offical.apk
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://dukkhaybw.github.io/dukkha.github.io/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20240227105339556.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blogs/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20240227105339556.png&#34;
 	width=&#34;1145&#34;
 	height=&#34;423&#34;
-	srcset=&#34;https://dukkhaybw.github.io/dukkha.github.io/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20240227105339556_hu_20e49bedf24b28d6.png 480w, https://dukkhaybw.github.io/dukkha.github.io/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20240227105339556_hu_a8a1a29029b24859.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/blogs/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20240227105339556_hu_20e49bedf24b28d6.png 480w, http://localhost:1313/blogs/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20240227105339556_hu_a8a1a29029b24859.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image-20240227105339556&#34;
@@ -1282,10 +1282,10 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;这张样式表最终应用到 DOM 节点的效果如下图所示：&lt;/p&gt;
 &lt;img src=&#34;https://static001.geekbang.org/resource/image/fe/b4/fe9a0ea868dc02a3c4a59f6080aa80b4.png&#34; alt=&#34;img&#34; style=&#34;zoom:50%;&#34; /&gt;
-&lt;p&gt;&lt;img src=&#34;https://dukkhaybw.github.io/dukkha.github.io/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20240227164718728.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blogs/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20240227164718728.png&#34;
 	width=&#34;907&#34;
 	height=&#34;889&#34;
-	srcset=&#34;https://dukkhaybw.github.io/dukkha.github.io/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20240227164718728_hu_e547b67f3c467d62.png 480w, https://dukkhaybw.github.io/dukkha.github.io/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20240227164718728_hu_7955acfd0b68a8ba.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/blogs/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20240227164718728_hu_e547b67f3c467d62.png 480w, http://localhost:1313/blogs/p/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%92%8C%E5%AE%9E%E8%B7%B5.assets/image-20240227164718728_hu_7955acfd0b68a8ba.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image-20240227164718728&#34;
@@ -7810,7 +7810,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;重点关注加载阶段和交互阶段&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;优化加载阶段&#34;&gt;优化加载阶段
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://dukkhaybw.github.io/dukkha.github.io/.%5ctypora-user-images%5cimage-20220513210622816.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blogs/.%5ctypora-user-images%5cimage-20220513210622816.png&#34;
 	
 	
 	
